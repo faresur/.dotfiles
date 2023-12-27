@@ -63,6 +63,9 @@ local plugins = {
       },
     },
   },
+  {
+    "lervag/vimtex",
+  },
 }
 
 return plugins
