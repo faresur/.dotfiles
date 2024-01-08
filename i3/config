@@ -32,36 +32,7 @@ set $mod Mod4
 # workspace layout: #
 #####################
 
-# default i3 tiling mode:
-workspace_layout default
-
-# i3 stacking layout:
-# Each window will be fullscreen and tabbed top to bottom.
-#workspace_layout stacking
-
-# i3 tabbed layout:
-# Each new window will open fullscreen as a tab (left to right)
-#workspace_layout tabbed
-
-##############################
-# extra options for windows: #
-##############################
-
-#border indicator on windows:
-new_window pixel 1
-
-# thin borders
-# hide_edge_borders both
-
-# Set inner/outer gaps
-gaps inner 3
-gaps outer 1
-
-# show window title bars (not officially supported with i3gaps)
-#default_border normal
-
-# window title alignment
-#title_align center
+include $HOME/.config/i3/config-files/window.conf
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -593,3 +564,7 @@ bindsym $mod+t exec --no-startup-id rofi -show window \
 #		-config ~/.config/rofi/rofidmenu.rasi
 
 bindsym $mod+m bar mode toggle
+
+# move focused workspace between monitors
+bindsym $mod+Ctrl+h move workspace to output eDp
+bindsym $mod+Ctrl+l move workspace to output HDMI-A-0
