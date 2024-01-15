@@ -100,7 +100,7 @@ neofetch
 
 alias rm='rm -i'
 alias vi='nvim'
-alias zrc='nvim ~/.zshrc'
+alias zrc='nvim ~/.dotfiles/zsh/zshrc'
 alias ani='ani-cli'
 alias lhost='. lhost'
 alias uni='. uni'
