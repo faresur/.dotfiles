@@ -32,7 +32,7 @@ alias todo='echo && cat .todo | nl &&  echo'
 alias rat='bat'
 
 # Welcome message
-neofetch
+echo "\nLogged in as <<$(whoami)>> on <<$( who am i | cut -d' ' -f5 )>> at <<$( who am i | cut -d' ' -f13,14 )>>\n" | lolcat
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
