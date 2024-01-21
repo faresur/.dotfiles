@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+PICTURE=/tmp/i3lock.png
+
+cp $HOME/pictures/wallpapers/dead-astronaut.jpg $PICTURE
+
+BLUR="5x4"
+
+convert $PICTURE -blur $BLUR $PICTURE
+i3lock -i $PICTURE
+rm $PICTURE
