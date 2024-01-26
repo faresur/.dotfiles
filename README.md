@@ -2,11 +2,15 @@
 
 My personal dotfiles.
 
-# Currently configured programs
+## i3wm
 
-- i3wm
-- Polybar
-- Alacritty
-- Neovim
-- ZSH
-- Tmux
+## Polybar
+
+## Alacritty
+
+## Neovim
+
+## ZSH
+
+## Tmux
+
