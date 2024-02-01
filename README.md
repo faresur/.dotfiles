@@ -6,7 +6,7 @@ My personal dotfiles.
 
 Installation commands on Arch Linux
 
-- GNU stow
+- GNU Stow
 - Zsh
 - Neovim
 - Tmux
@@ -36,4 +36,10 @@ git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
 
 ## Management
 
-Dotfiles are managed using the GNU Stow.
+Dotfiles are managed using GNU Stow.
+
+Install/Update symlinks using the following command in the root directory of the repository.
+
+```
+stow .
+```
