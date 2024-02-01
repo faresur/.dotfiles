@@ -1,16 +1,39 @@
-# dotfiles
+# Dotfiles
 
 My personal dotfiles.
 
-## i3wm
+## Installing prerequisites
 
-## Polybar
+Installation commands on Arch Linux
 
-## Alacritty
+- GNU stow
+- Zsh
+- Neovim
+- Tmux
+- Alacritty
+- i3
+- Picom
+- Polybar
+- Rofi
+- Dunst
 
-## Neovim
+```
+pacman -S stow zsh neovim tmux alacritty i3 picom polybar rofi dunst
+```
 
-## ZSH
+- Oh My Zsh
 
-## Tmux
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
 
+- NVChad
+
+```
+git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
+```
+
+
+## Management
+
+Dotfiles are managed using the GNU Stow.
