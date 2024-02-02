@@ -27,19 +27,4 @@ alias c='clear'
 alias rat='bat'
 
 # Welcome message
-echo "\nLogged in as <<$(whoami)>> on <<$( who am i | cut -d' ' -f5 )>> at <<$( who am i | cut -d' ' -f13,14 )>>\n" | lolcat
-
-# export MANPATH="/usr/local/man:$MANPATH"
-
-# You may need to manually set your language environment
-# export LANG=en_US.UTF-8
-
-# Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='mvim'
-# fi
-
-# Compilation flags
-# export ARCHFLAGS="-arch x86_64"
+echo "\nLogged in as <<$(whoami)>> on <<$(tty)>> at <<$(date +'%Y-%m-%d %H:%M:%S')>>\n" | lolcat
