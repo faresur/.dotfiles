@@ -27,4 +27,4 @@ alias c='clear'
 alias rat='bat'
 
 # Welcome message
-echo "\nLogged in as <<$(whoami)>> on <<$(tty)>> at <<$(date +'%Y-%m-%d %H:%M:%S')>>\n" | lolcat
+echo "\nLogged in as <<$(whoami)@$(hostname)>> on <<$(tty)>> at <<$(date +'%Y-%m-%d %H:%M:%S')>>\n" | lolcat
