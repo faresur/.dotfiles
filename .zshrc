@@ -12,7 +12,7 @@ plugins=(git python jump zsh-syntax-highlighting zsh-autosuggestions)
 source $ZSH/oh-my-zsh.sh
 
 # Environment variables
-export PATH=$PATH:"$HOME/.local/bin":"$HOME/.cargo/bin":"$HOME/.local/share/gem/ruby/3.0.0/bin"
+export PATH=$PATH:"$HOME/.local/bin":"$HOME/.local/scripts":"$HOME/.cargo/bin":"$HOME/.local/share/gem/ruby/3.0.0/bin"
 export HISTCONTROL=ignoreboth
 export BUNDLE_PATH=~/.gems
 export RUNLEVEL=3
@@ -27,4 +27,4 @@ alias c='clear'
 alias rat='bat'
 
 # Welcome message
-echo "\nLogged in as <<$(whoami)@$(hostname)>> on <<$(tty)>> at <<$(date +'%Y-%m-%d %H:%M:%S')>>\n" | lolcat
+echo "\nLogged in as <<$USERNAME@$HOST>> on <<$TTY>> at <<$(date +'%Y-%m-%d %H:%M:%S')>>\n" | lolcat
