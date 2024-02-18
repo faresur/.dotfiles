@@ -1,4 +1,4 @@
-# oh-my-zsh settings
+# Oh My Zsh settings
 export ZSH="$HOME/.oh-my-zsh"
 
 ZSH_THEME="af-magic"
@@ -17,14 +17,8 @@ export HISTCONTROL=ignoreboth
 export BUNDLE_PATH=~/.gems
 export RUNLEVEL=3
 export LC_ALL="C.UTF-8"
+export ZSH_IMPORT="$HOME/.zsh-configs"
 
-# Aliases
-alias rm='rm -i'
-alias vi='nvim'
-alias zrc='nvim ~/.zshrc'
-alias ani='ani-cli'
-alias c='clear'
-alias rat='bat'
-
-# Welcome message
-echo "\nLogged in as <<$USERNAME@$HOST>> on <<$TTY>> at <<$(date +'%Y-%m-%d %H:%M:%S')>>\n" | lolcat
+# Extra Config files
+source $ZSH_IMPORT/zsh-aliases.sh
+source $ZSH_IMPORT/zsh-welcome.sh
