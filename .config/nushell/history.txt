@@ -1,0 +1,56 @@
+ls
+ll
+ls -a
+ls
+c
+clear
+ls
+games
+ls -l
+ll
+ls
+alias ll="ls -lA"
+alias ll = "ls -lA"
+alias ll = ls -lA
+alias ll = "ls -lA"
+alias ll = 'ls -lA'
+alias ll = ls\ -lA
+ll
+alias ll = ls -lA
+alias ll = ls -la
+ll
+ls -lA
+ls -A
+ls -a
+ll
+la
+alias la = ls -la
+alias ll = ls -l
+ll
+cd university/semester05/paradigms/midterm/
+vi
+ll
+nvim
+cmatrix
+cd
+cd compsci/competitive/aoc/solutions/
+ll
+cd
+c
+ll
+cd iso
+ll
+cd
+c
+ll
+la
+eza
+ps
+ll
+cd .config
+ll
+la
+ll | where name == "nushell"
+ll
+ls
+la
