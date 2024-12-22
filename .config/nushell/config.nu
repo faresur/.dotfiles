@@ -897,3 +897,12 @@ $env.config = {
         }
     ]
 }
+
+alias ll = ls -l
+alias la = ls -la
+alias vi = nvim
+alias rm = rm -i
+alias rat = bat
+alias za = zathura
+alias ani-cli = ani -c
+alias c = clear
